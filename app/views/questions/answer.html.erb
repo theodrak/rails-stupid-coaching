@@ -1,0 +1,17 @@
+<div class = "container m-5">
+  <div class="border-start border-4 px-3"> 
+    <p class="fw-light"><%= @question %></h3>
+    <p class="fst-italic px-2">-You </p>
+  </div>
+
+
+  <div class="border-start border-4 px-3"> 
+    <p class="fw-bold fs-3"><%= @answer %></h3>
+    <p class="fst-italic px-2">-Coach </p>
+  </div>
+
+
+  <div> 
+    <%= link_to "Ask another question...", ask_path, class: "link-primary fs-6" %>
+  </div>
+</div>
